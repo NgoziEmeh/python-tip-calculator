@@ -16,5 +16,10 @@ spliters = int(input("How many people to split the bill?"))
 tip_per_person = float(tip_amount / spliters)
 
 # Round to 2 decimal places
-rounded_tip_per_person = round(tip_per_person, 2)
+# rounded_tip_per_person = round(tip_per_person, 2)
+
+# Method 2: You can also use string formatting
+rounded_tip_per_person = "{:.2f}".format(tip_per_person)
+
+# print result
 print(f"Each person should pay: ${rounded_tip_per_person}")
