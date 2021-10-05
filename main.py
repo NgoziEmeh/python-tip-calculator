@@ -4,7 +4,7 @@ print("Welcome to Ngozi's Tip Calculator: The Python Version")
 total_bill = float(input("What was the total bill?"))
 
 # Percentage to be given as tip
-tip_percentage = float(input("What percentage of tip will you like to give?"))
+tip_percentage = float(input("What percentage of total bill will you like to give as tip?"))
 
 # Amount to be paid. Tip + Total bill
 tip_amount = total_bill + (total_bill * (tip_percentage/100))
