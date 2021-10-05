@@ -17,4 +17,4 @@ tip_per_person = float(tip_amount / spliters)
 
 # Round to 2 decimal places
 rounded_tip_per_person = round(tip_per_person, 2)
-print(rounded_tip_per_person)
+print(f"Each person should pay: ${rounded_tip_per_person}")
